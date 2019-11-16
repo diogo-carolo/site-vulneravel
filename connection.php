@@ -2,8 +2,8 @@
     # Substitua abaixo os dados, de acordo com o banco criado
     
     $user = "root"; 
-    $password = ""; 
-    $database = "site-vulneravel"; 
+    $password = "poi123"; 
+    $database = "site_vulneravel"; 
     
     # O hostname deve ser sempre localhost 
     $hostname = "localhost"; 
