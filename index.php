@@ -15,11 +15,9 @@
 <body>
 	<?php include("menu.php")?>
 	
-
 	<div class="container">
 		<h1>NOTÍCIAS</h1>
 	</div>
-
 	<div class="buscar container" method="GET">
 		<form action="">
 		<label for="busca">BUSCA:</label>
@@ -28,7 +26,8 @@
 		</form>
 		<div class="termo-buscado">
 			<?php if(isset($_GET['busca']) && $_GET['busca'] != ""):?>
-				Busca por:<?php echo $_GET['busca'] ?>
+				<!-- Busca por:<?php echo $_GET['busca'] ?> -->
+        Busca por:<?php echo strip_tags($_GET['busca'])  ?>
 			<?php endif;?>
 		</div>
 	</div>

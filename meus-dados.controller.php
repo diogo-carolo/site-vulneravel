@@ -17,16 +17,13 @@
 
 
     function getMeusDados($id){
-        $result = mysql_query("SELECT * FROM usuarios WHERE id = ".$id." limit 1");
 
-        if (!$result) {
-            echo 'Could not run query: ' . mysql_error();
-            exit;
-        }
-
+        $query =  $GLOBALS['db']->prepare("SELECT * FROM usuarios WHERE id = :id limit 1");
+        $query->bindValue(':id',$id);
+        $query->execute(); 
         $usuario = null;
         
-        while ($row = mysql_fetch_object($result)) {
+        while ($row = $query->fetchObject()) {
             $usuario = $row;
         }
         return $usuario;
@@ -34,16 +31,13 @@
 
 
     function getMeusDadosAdmin($id){
-        $result = mysql_query("SELECT * FROM admin WHERE id = ".$id." limit 1");
 
-        if (!$result) {
-            echo 'Could not run query: ' . mysql_error();
-            exit;
-        }
-
+        $query =  $GLOBALS['db']->prepare("SELECT * FROM admin WHERE id = :id limit 1");
+        $query->bindValue(':id',$id);
+        $query->execute(); 
         $usuario = null;
         
-        while ($row = mysql_fetch_object($result)) {
+        while ($row = $query->fetchObject()) {
             $usuario = $row;
         }
         return $usuario;

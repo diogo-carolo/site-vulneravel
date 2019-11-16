@@ -1,10 +1,12 @@
 <?php
+
   session_start();
   include("connection.php");
   include("utils.controller.php");
 
   if(isset($_GET) && isset($_GET['busca']) ){
-    $noticias = busca($_GET['busca']);
+    // $noticias = busca($_GET['busca']);
+    $noticias = busca(strip_tags($_GET['busca']));
     return;
   }
 
@@ -15,36 +17,26 @@
 
   function getNoticias(){
 
-    $result = mysql_query("SELECT titulo,imagem,id FROM noticias");
-
-    if (!$result) {
-        echo 'Could not run query: ' . mysql_error();
-        exit;
-    }
-
+    $query =  $GLOBALS['db']->prepare("SELECT titulo,imagem,id FROM noticias");
+    $query->execute(); 
     $dados = [];
     
-    while ($row = mysql_fetch_object($result)) {
+    while ($row = $query->fetchObject()) {
         array_push($dados,$row);
     }
-
     return $dados;
+
   }
 
   function busca($busca){
-    $result = mysql_query("SELECT titulo,imagem,id FROM noticias WHERE titulo like '%" . $busca ."%'");
-
-    if (!$result) {
-        echo 'Could not run query: ' . mysql_error();
-        exit;
-    }
-
+    $query =  $GLOBALS['db']->prepare("SELECT titulo,imagem,id FROM noticias WHERE titulo like :busca ");
+    $query->bindValue(':busca','%'.$busca.'%');
+    $query->execute(); 
     $dados = [];
     
-    while ($row = mysql_fetch_object($result)) {
+    while ($row = $query->fetchObject()) {
         array_push($dados,$row);
     }
-
     return $dados;
   }
 ?>

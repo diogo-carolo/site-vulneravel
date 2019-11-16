@@ -18,15 +18,29 @@
 
     function login($dados){
 
-        $result = mysql_query("SELECT * FROM usuarios WHERE email = '".$dados['email']."' AND password = '". md5($dados['password']) ."' LIMIT 1");
-        if (!$result) {
-            echo 'Could not run query: ' . mysql_error();
-            exit;
-        }
+        //ANTIGO LOGIN 
+
+        // $result = mysql_query("SELECT * FROM usuarios WHERE email = '".$dados['email']."' AND password = '". md5($dados['password']) ."' LIMIT 1");
+        // if (!$result) {
+        //     echo 'Could not run query: ' . mysql_error();
+        //     exit;
+        // }
+        // $user = null;
+        // while ($row = mysql_fetch_object($result)) {
+        //    $user = $row;
+        // }
+
+        //LOGIN COM PDO
+        $query =  $GLOBALS['db']->prepare("SELECT * FROM usuarios WHERE email = :email AND password = md5(:password) LIMIT 1");
+		$query->bindValue(':email',$dados['email']);
+		$query->bindValue(':password',$dados['password']);
+        $query->execute(); 
+        
         $user = null;
-        while ($row = mysql_fetch_object($result)) {
-           $user = $row;
-        }
+		
+		while ($row = $query->fetchObject()) {
+			$user = $row;
+		}
 
         if(isset($user)){
             

@@ -22,33 +22,25 @@
 
 
 	function deletarNoticia($id){
-		$result = mysql_query("DELETE FROM noticias WHERE id = " . $id);
 
-		if (!$result) {
-			echo 'Could not run query: ' . mysql_error();
-			exit;
-		}
+		$query =  $GLOBALS['db']->prepare("DELETE FROM noticias WHERE id = :id");
+		$query->bindValue(':id',$id);
+		$query->execute(); 
 
 		getNoticias();
 		header('Location: index-admin.php');
 	}
 
-  function getNoticias(){
+	function getNoticias(){
 
-    $result = mysql_query("SELECT * FROM noticias");
-
-    if (!$result) {
-        echo 'Could not run query: ' . mysql_error();
-        exit;
-    }
-
-    $dados = [];
-    
-    while ($row = mysql_fetch_object($result)) {
-        array_push($dados,$row);
-    }
-
-    return $dados;
+		$query =  $GLOBALS['db']->prepare("SELECT* FROM noticias");
+		$query->execute(); 
+		$dados = [];
+		
+		while ($row = $query->fetchObject()) {
+			array_push($dados,$row);
+		}
+		return $dados;
 	}
 	
 	function criarImagem($dados,$files){
@@ -76,13 +68,12 @@
 		}
 	}
 	function criarNoticia($dados){
-		$result = mysql_query("INSERT INTO noticias (titulo,texto,imagem) VALUES ('".$dados['texto']."','".$dados['texto']."','".$dados['imagem']."')");
 
-
-		if (!$result) {
-				echo 'Could not run query: ' . mysql_error();
-				exit;
-		}
+		$query =  $GLOBALS['db']->prepare("INSERT INTO noticias (titulo,texto,imagem) VALUES (:titulo,:texto,:imagem)");
+		$query->bindValue(':titulo',$dados['titulo']);
+		$query->bindValue(':texto',$dados['texto']);
+		$query->bindValue(':imagem',$dados['imagem']);
+		$query->execute(); 
 
 		header('Location: index-admin.php?criado=true');
 	}
