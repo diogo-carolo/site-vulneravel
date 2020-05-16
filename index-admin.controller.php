@@ -56,7 +56,7 @@
 				$uploadOk = 1;
 			} else {
 					echo "Sorry, there was an error uploading your file.";
-					$uploadOk = 0
+					$uploadOk = 0;
 			}
 			
 		}
