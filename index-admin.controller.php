@@ -48,7 +48,6 @@
 		$target_file = $target_dir . basename($files["imagem"]["name"]);
 		$uploadOk = 1;
 		if(isset($_POST["submit"])) {
-			$check = getimagesize($files["imagem"]["tmp_name"]);
 			echo "File is an image - " . $check["mime"] . ".";
 			if (move_uploaded_file($files["imagem"]["tmp_name"], $target_file)) {
 				echo "The file ". basename( $files["imagem"]["name"]). " has been uploaded.";
