@@ -8,7 +8,7 @@
     }
 
     if(isset($_GET['id']) && isset($_SESSION['user']) ){
-        $usuario = getMeusDados($_SESSION["user"]->id);
+        $usuario = getMeusDados($_GET['id']);
     }
 
     if(isset($_GET['id']) && isset($_SESSION['admin']) ){
