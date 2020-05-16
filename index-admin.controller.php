@@ -50,21 +50,21 @@
 		$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 		// Check if image file is a actual image or fake image
 		if(isset($_POST["submit"])) {
-				$check = getimagesize($files["imagem"]["tmp_name"]);
-				// if($check !== false) {
-						echo "File is an image - " . $check["mime"] . ".";
-						if (move_uploaded_file($files["imagem"]["tmp_name"], $target_file)) {
-							echo "The file ". basename( $files["imagem"]["name"]). " has been uploaded.";
-							$dados['imagem'] = $files['imagem']['name'];
-							criarNoticia($dados);	
-						} else {
-								echo "Sorry, there was an error uploading your file.";
-						}
-						$uploadOk = 1;
-				// } else {
-				// 		echo "File is not an image.";
-				// 		$uploadOk = 0;
-				// }
+			$check = getimagesize($files["imagem"]["tmp_name"]);
+			if($check !== false) {
+				echo "File is an image - " . $check["mime"] . ".";
+				if (move_uploaded_file($files["imagem"]["tmp_name"], $target_file)) {
+					echo "The file ". basename( $files["imagem"]["name"]). " has been uploaded.";
+					$dados['imagem'] = $files['imagem']['name'];
+					criarNoticia($dados);	
+				} else {
+						echo "Sorry, there was an error uploading your file.";
+				}
+				$uploadOk = 1;
+			} else {
+				echo "File is not an image.";
+				$uploadOk = 0;
+			}
 		}
 	}
 	function criarNoticia($dados){
