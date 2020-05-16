@@ -1,0 +1,634 @@
+Looking for git in: git
+Using git 1.9.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /var/www/html/site-vulneravel
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :meus-dados.controller.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :meus-dados.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :menu.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :meus-dados.controller.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse correçao
+> git rev-parse --symbolic-full-name correçao@{u}
+fatal: No upstream configured for branch 'correçao'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
