@@ -53,10 +53,12 @@
 				echo "The file ". basename( $files["imagem"]["name"]). " has been uploaded.";
 				$dados['imagem'] = $files['imagem']['name'];
 				criarNoticia($dados);	
+				$uploadOk = 1;
 			} else {
 					echo "Sorry, there was an error uploading your file.";
+					$uploadOk = 0
 			}
-			$uploadOk = 1;
+			
 		}
 	}
 	function criarNoticia($dados){
