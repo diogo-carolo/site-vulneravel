@@ -47,20 +47,9 @@
 		$target_dir = "img/";
 		$target_file = $target_dir . basename($files["imagem"]["name"]);
 		$uploadOk = 1;
-		$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+
 		if(isset($_POST["submit"])) {
 			$check = getimagesize($files["imagem"]["tmp_name"]);
-<<<<<<< HEAD
-			echo "File is an image - " . $check["mime"] . ".";
-			if (move_uploaded_file($files["imagem"]["tmp_name"], $target_file)) {
-				echo "The file ". basename( $files["imagem"]["name"]). " has been uploaded.";
-				$dados['imagem'] = $files['imagem']['name'];
-				criarNoticia($dados);	
-			} else {
-					echo "Sorry, there was an error uploading your file.";
-			}
-			$uploadOk = 1;
-=======
 			if($check !== false) {
 				echo "File is an image - " . $check["mime"] . ".";
 				if (move_uploaded_file($files["imagem"]["tmp_name"], $target_file)) {
@@ -75,7 +64,6 @@
 				echo "File is not an image.";
 				$uploadOk = 0;
 			}
->>>>>>> 6b14645692fbac48a73a9c33048f49d173da7beb
 		}
 	}
 	function criarNoticia($dados){
