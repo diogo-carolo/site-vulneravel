@@ -8,11 +8,11 @@
     }
 
     if(isset($_GET['id']) && isset($_SESSION['user']) ){
-        $usuario = getMeusDados($_GET['id']);
+        $usuario = getMeusDados($_SESSION["user"]->id);
     }
 
     if(isset($_GET['id']) && isset($_SESSION['admin']) ){
-        $usuario = getMeusDadosAdmin($_GET['id']);
+        $usuario = getMeusDadosAdmin($_SESSION["admin"]->id);
     }
 
 
